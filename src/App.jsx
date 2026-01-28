@@ -5,70 +5,98 @@ function App() {
   return (
     <div className="app">
 
-      {/* Header Image */}
-      <div className="header"></div>
+      {/* Hero */}
+      <div className="hero fade-in">
+        <h1>About Our Platform</h1>
+        <p>Building trust between students and mess services</p>
+      </div>
 
-      {/* Main Section */}
       <div className="container">
 
-        <h1>GET IN TOUCH</h1>
-
-        <p className="subtitle">
-          Access saved messes, reviews, and personalized questions.
-          Feedback or want your mess listed? We’re here to help.
-        </p>
-
-        {/* Contact Form */}
-        <div className="form-box">
-          <form>
-
-            <input type="text" placeholder="Enter Name" />
-
-            <input type="email" placeholder="Enter Email" />
-
-            <textarea
-              rows="4"
-              placeholder="Enter Message..."
-            ></textarea>
-
-            <button type="submit">Send Message</button>
-
-          </form>
-        </div>
-
-        {/* Info Cards */}
-        <div className="cards">
-
-          <div className="card">
-            <h3>E-Mail</h3>
-            <p>xyz123@gmail.com</p>
-            <span>Replies within 24 hours</span>
-          </div>
-
-          <div className="card">
-            <h3>Location</h3>
-            <p>Serving students in Dehradun</p>
-          </div>
-
-          <div className="card">
-            <h3>Mess Owner</h3>
-            <p>Want to list your mess?</p>
-            <button className="small-btn">List</button>
-          </div>
-
-        </div>
-
-        {/* Explore Section */}
-        <div className="explore">
+        {/* Who We Are */}
+        <section className="fade-up">
+          <h2>Who We Are</h2>
 
           <p>
-            Find your next mess without the guesswork.
-            Browse verified messes, menus, and reviews — all in one place.
+            We are a student-led initiative focused on helping students
+            discover reliable and affordable mess services.
           </p>
 
-          <button>Explore</button>
+          <p>
+            Our platform connects students with verified mess providers
+            using honest reviews, transparent menus, and real experiences.
+          </p>
+        </section>
 
-        </div>
+        {/* Mission */}
+        <section className="fade-up delay-1">
+          <h2>Our Mission</h2>
+
+          <p>
+            To simplify daily food decisions by providing accurate,
+            trusted, and easy-to-access mess information.
+          </p>
+
+          <h2>Our Vision</h2>
+
+          <p>
+            To become India’s most trusted student food discovery platform.
+          </p>
+        </section>
+
+        {/* Work */}
+        <section className="fade-up delay-2">
+          <h2>What We Do</h2>
+
+          <div className="work-cards">
+
+            <div className="work-card">Verified Listings</div>
+            <div className="work-card">Student Reviews</div>
+            <div className="work-card">Menu Transparency</div>
+            <div className="work-card">Smart Search</div>
+
+          </div>
+        </section>
+
+        {/* Team */}
+        <section className="fade-up delay-3">
+          <h2>Our Team</h2>
+
+          <div className="team-cards">
+
+            <div className="team-card">
+              <h3>Ashish Rautela</h3>
+              <p>Founder & Debugging</p>
+              <a href="https://www.linkedin.com/in/ashish-rautela-82322b33a/">LinkedIn</a>
+            </div>
+
+            <div className="team-card">
+              <h3>Sahil Negi</h3>
+              <p>Backend Developer</p>
+              <a href="https://www.linkedin.com/in/sahil-negi-585a26315/">LinkedIn</a>
+            </div>
+
+            <div className="team-card">
+              <h3>Akansh Mehra</h3>
+              <p>UI Designer</p>
+              <a href="https://www.linkedin.com/in/akansh-mehra-944901261/">LinkedIn</a>
+            </div>
+
+            <div className="team-card">
+              <h3>Yuvraj Kabadwal</h3>
+              <p>Frontend Developer</p>
+              <a href="https://www.linkedin.com/in/yuvraj-kabadwal-551678324/">LinkedIn</a>
+            </div>
+
+            {/* Centered Last Card */}
+            <div className="team-card center-card">
+              <h3>Naitik Dhiman</h3>
+              <p>Content & Research</p>
+              <a href="#https://www.linkedin.com/in/naitik-dhiman-85798b323/">LinkedIn</a>
+            </div>
+
+          </div>
+        </section>
 
       </div>
 
